@@ -11,6 +11,7 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { ListComponent } from './list/list.component';
 import { IfComponent } from './if/if.component';
+import { SwitchComponent } from './switch/switch.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { IfComponent } from './if/if.component';
     LoginComponent,
     RegisterComponent,
     ListComponent,
-    IfComponent
+    IfComponent,
+    SwitchComponent
   ],
   imports: [
     BrowserModule,
