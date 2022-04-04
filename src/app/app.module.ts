@@ -10,6 +10,7 @@ import { MainAreaComponent } from './main-area/main-area.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { ListComponent } from './list/list.component';
+import { IfComponent } from './if/if.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ListComponent } from './list/list.component';
     MainAreaComponent,
     LoginComponent,
     RegisterComponent,
-    ListComponent
+    ListComponent,
+    IfComponent
   ],
   imports: [
     BrowserModule,

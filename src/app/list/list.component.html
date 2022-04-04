@@ -1,5 +1,5 @@
 <p>list works!</p>
-
+<app-if></app-if>
 <div class="row">
     <h2>This just loop over array</h2>
     <div *ngFor="let myelm of [1,2,3]" class="card col m-3">
@@ -16,6 +16,7 @@
 <div class="row">
     <h2>This loop over array of object</h2>
     <div *ngFor="let myelm of itemList" class="card col m-3">
+        <span *ngIf="myelm.title === 'HOME'"><h6>Hello this is if</h6></span>
         <img width="200" height="300" src="{{myelm.imageLink}}" class="card-img-top" alt="...">
         <div class="card-body">
             <h5 class="card-title">{{myelm.title}}</h5>
