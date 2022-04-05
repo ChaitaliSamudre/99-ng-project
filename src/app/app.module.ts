@@ -12,6 +12,12 @@ import { RegisterComponent } from './register/register.component';
 import { ListComponent } from './list/list.component';
 import { IfComponent } from './if/if.component';
 import { SwitchComponent } from './switch/switch.component';
+import { ParentListComponent } from './parent-list/parent-list.component';
+import { ChildItemComponent } from './child-item/child-item.component';
+import { ProfileListComponent } from './profile-list/profile-list.component';
+import { ProfileComponent } from './profile/profile.component';
+import { ContactListComponent } from './contact-list/contact-list.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +30,13 @@ import { SwitchComponent } from './switch/switch.component';
     RegisterComponent,
     ListComponent,
     IfComponent,
-    SwitchComponent
+    SwitchComponent,
+    ParentListComponent,
+    ChildItemComponent,
+    ProfileListComponent,
+    ProfileComponent,
+    ContactListComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
